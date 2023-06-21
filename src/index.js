@@ -1,11 +1,19 @@
+//* composants => Router -> stocker et s'abonner aux URL / Routes -> sélect composant enfant
+// * Route -> params path et element (mini)
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Home from './pages/Home/'; //* path: routes
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/';
+import Header from "./components/Header";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <Home />
-  </React.StrictMode>
-);
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById('root')
+)
