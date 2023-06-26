@@ -1,5 +1,5 @@
 //* importe la var data du fichier data.js / auto en faisant log(data) -> propose le lien
-import { data } from "../../components/Data/data";
+import { data } from "../../Data/data";
 
 function App() {
   console.log(data);

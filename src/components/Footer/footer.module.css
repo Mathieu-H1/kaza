@@ -1,0 +1,35 @@
+/* Background */
+.background {
+   width: 100%;
+   height: 15%;
+   background: #000000;
+}
+
+/* Logo */
+.logo {
+   text-align: center;
+   color: #FFFFFF;
+}
+/* .letterK {
+
+}
+.home {
+
+}
+.letterS {
+
+}
+.letterA {
+
+} */
+
+/* Texte */
+.text {
+   font-family: Montserrat;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 34px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #FFFFFF;
+}
