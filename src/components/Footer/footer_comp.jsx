@@ -1,16 +1,19 @@
 import React from 'react';
 import styles from './footer.module.css';
-import picture from './Pictures/';
+import PicK from './Pictures/picK.png';
+import PicHouse from './Pictures/picHouse.png';
+import PicS from './Pictures/picS.png';
+import PicA from './Pictures/picA.png';
 
 //! à modifier
 function Footer() {
    return (
       <section className={styles.background}>
          <div className={styles.logo}>
-            <p className={styles.letterK}>{picture.picK}</p>;
-            <p className={styles.home}>{picture.picHouse}</p>;
-            <p className={styles.letterS}>{picture.picS}</p>;
-            <p className={styles.letterA}>{picture.picA}</p>;
+            <p className={styles.letterK}><img src={PicK} alt="K" /></p>
+            <p className={styles.home}><img src={PicHouse} alt="Home" /></p>
+            <p className={styles.letterS}><img src={PicS} alt="S" /></p>
+            <p className={styles.letterA}><img src={PicA} alt="A" /></p>
          </div>
 
          <p className={styles.text}>© 2020 Kasa. All rights reserved</p>

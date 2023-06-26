@@ -7,21 +7,19 @@
 
 /* Logo */
 .logo {
+   display: flex;
+   justify-content: center;
    text-align: center;
    color: #FFFFFF;
-}
 /* .letterK {
-
 }
 .home {
-
 }
 .letterS {
-
 }
 .letterA {
-
 } */
+}
 
 /* Texte */
 .text {
