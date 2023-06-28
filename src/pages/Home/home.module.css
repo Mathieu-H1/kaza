@@ -1,0 +1,25 @@
+/* HomeBanner  */
+
+.homeBanner {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.pictureBanner {
+   width: 1300px;
+   height: 150px;
+   border-radius: 25px;
+   object-fit: cover;
+   filter: contrast(80%);
+}
+
+.textBanner {
+   position: absolute;
+   font-family: Montserrat;
+   font-size: 40px;
+   line-height: 68px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: white;
+}

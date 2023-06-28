@@ -15,7 +15,6 @@ function Footer() {
             <p className={styles.letterS}><img src={PicS} alt="S" /></p>
             <p className={styles.letterA}><img src={PicA} alt="A" /></p>
          </div>
-
          <p className={styles.text}>© 2020 Kasa. All rights reserved</p>
       </section>
    )
