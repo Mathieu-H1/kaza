@@ -11,9 +11,9 @@ function Footer() {
       <section className={styles.background}>
          <div className={styles.logo}>
             <p className={styles.letterK}><img src={PicK} alt="K" /></p>
-            <p className={styles.home}><img src={PicHouse} alt="Home" /></p>
-            <p className={styles.letterS}><img src={PicS} alt="S" /></p>
-            <p className={styles.letterA}><img src={PicA} alt="A" /></p>
+            <p><img src={PicHouse} alt="Home" /></p>
+            <p><img src={PicS} alt="S" /></p>
+            <p><img src={PicA} alt="A" /></p>
          </div>
          <p className={styles.text}>© 2020 Kasa. All rights reserved</p>
       </section>
