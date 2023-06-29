@@ -1,6 +1,6 @@
 //* créer une variable data pour l'exporter ensuite
 
-export const data = [
+export const datas = [
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",

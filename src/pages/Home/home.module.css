@@ -1,4 +1,6 @@
-/* HomeBanner  */
+.homePage {
+   margin-top: 20px;
+}
 
 .homeBanner {
    display: flex;
@@ -8,7 +10,7 @@
 
 .pictureBanner {
    width: 1300px;
-   height: 150px;
+   height: 170px;
    border-radius: 25px;
    object-fit: cover;
    filter: contrast(80%);

@@ -1,4 +1,24 @@
 /* Card */
-.card {
-   
+.gallery {
+   width: 1300px;
+   height: 820px;
+   border-radius: 25px;
+   background-color: #F6F6F6;
+   margin: 20px 0 20px 0;
+}
+
+.pictureCard {
+   border-radius: 10px;
+   object-fit: cover;
+}
+
+.textCard {
+   position: absolute;
+   font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 26px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: white;
 }
