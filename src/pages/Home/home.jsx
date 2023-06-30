@@ -7,11 +7,11 @@ function Home() {
   return (
     <section className={styles.homePage}>
       <section className={styles.homeBanner}>
-        <div><img className={styles.pictureBanner} src={Mer} alt="côte littoral" /></div>
-        <div className={styles.textBanner}>Chez vous, partout et ailleurs</div>
+        <div> <img className={styles.pictureBanner} src={Mer} alt="côte littoral" /> </div>
+        <div className={styles.textBanner}> Chez vous, partout et ailleurs </div>
       </section>
       <section>
-        <Card />
+        <div> {Card} </div>
       </section>
     </section>
   );
