@@ -1,4 +1,5 @@
 //* importe la var data du fichier data.js / auto en faisant log(data) -> propose le lien
+//* card composant react donc <???? />
 import styles from './home.module.css';
 import Card from "../../components/Cards/card_comp";
 import Mer from "./mer.png";
@@ -11,7 +12,7 @@ function Home() {
         <div className={styles.textBanner}> Chez vous, partout et ailleurs </div>
       </section>
       <section>
-        <div> {Card} </div>
+        <div className={styles.carrousel}> <Card /> </div>
       </section>
     </section>
   );

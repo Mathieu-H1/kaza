@@ -12,6 +12,7 @@
 .pictureBanner {
    width: 1300px;
    height: 170px;
+   max-width: 90%;
    border-radius: 25px;
    object-fit: cover;
    filter: contrast(80%);
@@ -24,4 +25,9 @@
    line-height: 68px;
    text-align: left;
    color: white;
+}
+
+.carrousel {
+   display: flex;
+   
 }
