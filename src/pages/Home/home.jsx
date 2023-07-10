@@ -6,16 +6,15 @@ import Mer from "./mer.png";
 import Card from "../../components/Cards/card_comp";
 import { datas } from '../../Data/data';
 
+//*comp Banner a déjà 1 div / children permet d'ajouter ce que l'on veut changer
 function Home() {
   return (
     <section className={styles.homePage}>
-
-        <Banner>
-          <div className={styles.picBanner}> <img className={styles.pictureBanner} src={Mer} alt="côte littoral" /> </div>
-          <div className={styles.textBanner}>Chez vous, partout et ailleurs</div>
-        </Banner>
-
-      <section>
+      <Banner>
+        <div className={styles.picBanner}> <img className={styles.pictureBanner} src={Mer} alt="côte littoral" /> </div>
+        <div className={styles.textBanner}>Chez vous, partout et ailleurs</div>
+      </Banner>
+      <section className={styles.gallery}>
         <div className={styles.carrousel}>
           {datas.map(logement => {
             return (<Card logement={logement} />)

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './card.module.css';
 
 function Card(data) {
-   return (<section className={styles.gallery} key={data.id}>
+   return (<section key={data.id}>
       <div className={styles.pictureCard}>
          <img src={data.cover} alt="Location" />
       </div>

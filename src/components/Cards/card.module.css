@@ -1,20 +1,11 @@
 /* Card */
-.gallery {
-   width: 1300px;
-   height: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   border-radius: 25px;
-   margin: 20px 0 20px 0;
-   background-color: #F6F6F6;
-}
-
 .pictureCard {
    width: 350px;
    height: 350px;
-   background-color: #FF6060;
-   border-radius: 10px;
    object-fit: cover;
+   border-radius: 10px;
+margin: 20px 0 20px 0 ;
+   background-color: #FF6060;
 }
 
 .textCard {

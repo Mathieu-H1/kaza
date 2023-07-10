@@ -1,8 +1,14 @@
 /* Bannière */
-.banner {
+.header {
    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.banner {
+   width: 90%;
    height: 60px;
-   margin: 25px 0 25px 0;
+   margin-top: 25px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -11,7 +17,6 @@
 .logo {
    width: 15%;
    display: flex;
-   padding-left: 100px;
 }
 
 .letterK {
@@ -22,7 +27,6 @@
 
 .navigation {
    width: 15%;
-   padding-right: 100px;
    font-family: 'Montserrat';
    font-style: normal;
    font-weight: 500;
