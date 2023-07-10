@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './banner.module.css';
 
-function Banner() {
+function Banner({ children }) {
    return (
       <section className={styles.homeBanner}>
-         <div> <img className={styles.pictureBanner} alt="" /> </div>
-         <div className={styles.textBanner}></div>
+         {children}
       </section>
    )
 }

@@ -6,12 +6,15 @@ import Mer from "./mer.png";
 import Card from "../../components/Cards/card_comp";
 import { datas } from '../../Data/data';
 
-//! src={Mer} alt="côte littoral"
-//!  Chez vous, partout et ailleurs 
 function Home() {
   return (
     <section className={styles.homePage}>
-      <section > <Banner /> </section>
+
+        <Banner>
+          <div className={styles.picBanner}> <img className={styles.pictureBanner} src={Mer} alt="côte littoral" /> </div>
+          <div className={styles.textBanner}>Chez vous, partout et ailleurs</div>
+        </Banner>
+
       <section>
         <div className={styles.carrousel}>
           {datas.map(logement => {

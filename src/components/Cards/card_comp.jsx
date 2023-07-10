@@ -1,5 +1,4 @@
 import React from 'react'
-
 import styles from './card.module.css';
 
 function Card(data) {
@@ -13,4 +12,4 @@ function Card(data) {
    </section>)
 }
 
-export default Card
+export default Card;
