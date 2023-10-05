@@ -8,6 +8,7 @@ import { datas } from '../../Data/data';
 
 //*comp Banner a déjà 1 div / children permet d'ajouter ce que l'on veut changer
 function Home() {
+  console.log(datas);
   return (
     <section className={styles.homePage}>
       <Banner>
@@ -17,7 +18,7 @@ function Home() {
       <section className={styles.gallery}>
         <div className={styles.carrousel}>
           {datas.map(logement => {
-            return (<Card logement={logement} />)
+            return (<Card logement={logement} key={logement.id} />)
           })}
         </div>
       </section>
