@@ -34,19 +34,20 @@
 .gallery {
    width: 90%;
    display: flex;
-   margin-top: 30px;
    justify-content: center;
+   margin-top: 30px;
    border-radius: 25px;
    background-color: #F6F6F6;
 }
 
-.carrousel {
+.cardsGallery {
    width: 100%;
    height: 100%;
-   padding: 40px 0 20px 0;;
+   padding: 20px 0 20px 0;
+   
    display: flex;
    flex-wrap: wrap;
-   justify-content:space-around;
+   justify-content: space-around;
 
-   border-radius: 25px;
+
 }

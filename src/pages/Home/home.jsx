@@ -16,7 +16,7 @@ function Home() {
         <div className={styles.textBanner}>Chez vous, partout et ailleurs</div>
       </Banner>
       <section className={styles.gallery}>
-        <div className={styles.carrousel}>
+        <div className={styles.cardsGallery}>
           {datas.map(logement => {
             return (<Card logement={logement} key={logement.id} />)
           })}
