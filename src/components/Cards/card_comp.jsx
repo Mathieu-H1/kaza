@@ -3,8 +3,8 @@ import styles from './card.module.css';
 
 function Card(data) {
    console.log(data);
-   return (<section key={data.id}>
-      <div className={styles.pictureCard}>
+   return (<section className={styles.pictureCard} key={data.id}>
+      <div>
          <img src={data.logement.cover} alt="Location" />
       </div>
       <div className={styles.textCard}>
