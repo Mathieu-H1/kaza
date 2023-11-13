@@ -17,8 +17,8 @@ function Header() {
           <p> <img src={PicA} alt="A" /> </p>
         </div>
         <nav className={styles.navigation} >
-          <p ><Link to="/" className={styles.links}> Acceuil </Link></p>
-          <p ><Link to="/a_propos" className={styles.links}> A Propos </Link></p>
+          <p> <Link to="/" className={styles.links}> Acceuil </Link> </p>
+          <p> <Link to="/a_propos" className={styles.links}> A Propos </Link> </p>
         </nav>
       </section>
     </section>
