@@ -28,3 +28,26 @@
    text-align: left;
    color: white;
 }
+
+/* responsive design */
+@media screen and (min-width: 480px) and (max-width: 720px) {
+
+   .pictureCard,
+   .pictureCard img {
+      width: 335px;
+      height: 255px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+   .pictureCard,
+   .pictureCard img {
+      width: 255px;
+      height: 255px;
+   }
+
+   .textCard {
+      width: 200px;
+   }
+}

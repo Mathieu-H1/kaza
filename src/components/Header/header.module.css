@@ -1,4 +1,4 @@
-/* Bannière */
+/* Bannière / entête -> de chaque page */
 .header {
    width: 100%;
    display: flex;
@@ -43,7 +43,7 @@
 }
 
 /* responsive design */
-@media screen and (min-width: 476px) and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 720px) {
    .logo {
       width: 30%;
    }
@@ -62,7 +62,7 @@
    }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 480px) {
    .logo img {
       height: 33px;
    }
