@@ -42,6 +42,7 @@
    color: #FF6060;
 }
 
+/* responsive design */
 @media screen and (min-width: 476px) and (max-width: 600px) {
    .logo {
       width: 30%;
