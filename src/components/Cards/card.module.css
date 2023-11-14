@@ -1,4 +1,4 @@
-/* Card */
+/* carte en global */
 .pictureCard {
    width: 340px;
    height: 340px;
@@ -7,6 +7,7 @@
    background-color: #FF6060;
 }
 
+/* image de la carte */
 .pictureCard img {
    width: 340px;
    height: 340px;
@@ -14,6 +15,7 @@
    border-radius: 10px;
 }
 
+/* texte de la carte */
 .textCard {
    position: relative;
    width: 300px;
@@ -24,13 +26,13 @@
    font-size: 18px;
    font-weight: 500;
    line-height: 26px;
-   letter-spacing: 0em;
    text-align: left;
    color: white;
 }
 
 /* responsive design */
-@media screen and (min-width: 480px) and (max-width: 720px) {
+
+@media screen and (min-width: 370px) and (max-width: 500px) {
 
    .pictureCard,
    .pictureCard img {
@@ -39,7 +41,7 @@
    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 370px) {
 
    .pictureCard,
    .pictureCard img {
