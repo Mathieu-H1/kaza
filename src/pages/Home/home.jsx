@@ -1,5 +1,6 @@
 //* importe la var data du fichier data.js / auto en faisant log(data) -> propose le lien
 //* card composant react donc <???? />
+
 import styles from './home.module.css';
 import Banner from '../../components/Banners/banner';
 import Mer from "./mer.png";

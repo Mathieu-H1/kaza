@@ -57,13 +57,24 @@
 }
 
 /* responsive design */
-@media screen and (min-width: 480px) and (max-width: 720px) {}
 
-.textBanner {
-   font-size: 30px;
+@media screen and (min-width: 500px) and (max-width: 838px) {
+   .textBanner {
+      font-size: 30px;
+   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 370px) and (max-width: 500px) {
+   .textBanner {
+      font-size: 30px;
+   }
+
+   .gallery {
+      background-color: white;
+   }
+}
+
+@media screen and (max-width: 370px) {
    .pictureBanner {
       height: 111px;
    }

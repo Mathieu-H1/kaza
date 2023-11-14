@@ -43,7 +43,8 @@
 }
 
 /* responsive design */
-@media screen and (min-width: 480px) and (max-width: 720px) {
+
+@media screen and (min-width: 500px) and (max-width: 838px) {
    .logo {
       width: 30%;
    }
@@ -62,7 +63,7 @@
    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
    .logo img {
       height: 33px;
    }

@@ -33,7 +33,7 @@
    color: #FFFFFF;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
    .text {
       font-size: 12px;
       line-height: 17px;
