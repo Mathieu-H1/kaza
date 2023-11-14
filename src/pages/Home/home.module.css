@@ -16,19 +16,26 @@
 
 .pictureBanner {
    width: 90%;
-   height: 180px;
+   height: 223px;
    border-radius: 25px;
    object-fit: cover;
    filter: contrast(80%);
 }
 
 .textBanner {
+   width: 705px;
    position: absolute;
    font-family: Montserrat;
-   font-size: 40px;
+   font-size: 48px;
+   font-weight: 500;
    line-height: 68px;
+   letter-spacing: 0em;
    text-align: center;
    color: white;
+}
+
+.back {
+   display: none;
 }
 
 .gallery {
@@ -43,8 +50,35 @@
 .cardsGallery {
    width: 100%;
    height: 100%;
-   padding: 20px 0 20px 0;   
+   padding: 20px 0 20px 0;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
+}
+
+/* responsive design */
+@media screen and (min-width: 476px) and (max-width: 600px) {}
+
+.textBanner {
+   font-size: 30px;
+}
+
+@media screen and (max-width: 476px) {
+   .pictureBanner {
+      height: 111px;
+   }
+
+   .textBanner {
+      width: 60%;
+      left: 36px;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: left;
+   }
+
+   .back {
+      display: block;
+   }
 }
