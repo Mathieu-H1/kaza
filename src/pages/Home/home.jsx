@@ -13,7 +13,7 @@ function Home() {
     <section className={styles.homePage}>
       <Banner>
         <div className={styles.picBanner}> <img className={styles.pictureBanner} src={Mer} alt="côte littoral" /> </div>
-        <div className={styles.textBanner}>Chez vous, partout et ailleurs</div>
+        <div className={styles.textBanner}>Chez vous,{<span className={styles.back}><br /></span>} partout et ailleurs</div>
       </Banner>
       <section className={styles.gallery}>
         <div className={styles.cardsGallery}>
