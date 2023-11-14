@@ -5,7 +5,7 @@ import PicHouse from './Pictures/picHouse.png';
 import PicS from './Pictures/picS.png';
 import PicA from './Pictures/picA.png';
 
-//! à modifier
+
 function Footer() {
    return (
       <section className={styles.background}>
@@ -15,7 +15,7 @@ function Footer() {
             <p><img src={PicS} alt="S" /></p>
             <p><img src={PicA} alt="A" /></p>
          </div>
-         <p className={styles.text}>© 2020 Kasa. All rights reserved</p>
+         <div className={styles.text}>© 2020 Kasa. All rights reserved</div>
       </section>
    )
 }
