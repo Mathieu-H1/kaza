@@ -64,6 +64,10 @@
 }
 
 @media screen and (max-width: 500px) {
+   .banner {
+      width: 335px;
+   }
+
    .logo img {
       height: 33px;
    }

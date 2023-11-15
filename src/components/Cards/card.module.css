@@ -32,7 +32,7 @@
 
 /* responsive design */
 
-@media screen and (min-width: 370px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
    .pictureCard,
    .pictureCard img {
@@ -40,7 +40,7 @@
       height: 255px;
    }
 }
-
+/*
 @media screen and (max-width: 370px) {
 
    .pictureCard,
@@ -52,4 +52,4 @@
    .textCard {
       width: 200px;
    }
-}
+} */
