@@ -67,7 +67,6 @@
 }
 
 @media screen and (max-width: 500px) {
-
    .picBanner {
       width: 335px;
    }
@@ -84,6 +83,7 @@
       font-weight: 500;
       line-height: 16px;
       text-align: left;
+      left: 10%;
    }
 
    .back {
@@ -91,6 +91,13 @@
    }
 
    .gallery {
+      width: 100%;
       background-color: white;
+   }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+   .textBanner {
+      left: 17%;
    }
 }

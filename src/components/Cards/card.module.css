@@ -40,16 +40,17 @@
       height: 255px;
    }
 }
-/*
-@media screen and (max-width: 370px) {
+
+@media screen and (max-width: 350px) {
 
    .pictureCard,
    .pictureCard img {
-      width: 255px;
-      height: 255px;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
    }
 
    .textCard {
       width: 200px;
    }
-} */
+}
