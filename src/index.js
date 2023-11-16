@@ -9,7 +9,7 @@ import Home from './pages/Home/home';
 import Logement from './pages/Logement/logement';
 import APropos from './pages/A_propos/a_propos';
 import Footer from "./components/Footer/footer_comp";
-import Error from "./components/Error/error_comp";
+import Error from "./pages/Error/error";
 
 //* renvoie sur HTML le Js/React
 const root = createRoot(document.getElementById('root'));
