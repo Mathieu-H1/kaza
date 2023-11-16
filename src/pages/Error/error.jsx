@@ -1,25 +1,25 @@
 //* modifier page index composant error en page erreur_404
 //* pas de composant react car page unique
 
-import styles from './erreur_404.module.css';
+import styles from './error.module.css';
 
-function Erreur_404() {
+function Error() {
    return (
-      <section className={styles.error_404Page}>
+      <section className={styles.errorPage}>
          <div className={styles.number}>
             <p>404</p>
          </div>
          <div className={styles.errorMessage}>
             <p>Oups! La page que vous demandez n'existe pas.</p>
          </div>
-         <div className={styles.homePage}>
+         <div className={styles.returnHome}>
             <p>Retourner sur la page d’accueil</p>
          </div>
       </section>
    )
 }
 
-export default Erreur_404;
+export default Error;
 /*
 function Home() {
    console.log(datas);

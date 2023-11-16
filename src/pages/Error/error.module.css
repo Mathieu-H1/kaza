@@ -1,4 +1,4 @@
-.error_404Page {
+.errorPage {
    display: flex;
    flex-direction: column;
 }
@@ -22,7 +22,7 @@
    background: #FF6060;
 }
 
-.homePage {
+.returnHome {
    font-family: Montserrat;
    font-size: 18px;
    font-weight: 500;
