@@ -1,6 +1,7 @@
 .errorPage {
    display: flex;
    flex-direction: column;
+   align-items: center;
 }
 
 .number {
@@ -10,6 +11,8 @@
    line-height: 411px;
    letter-spacing: 0em;
    text-align: center;
+   margin: 100px 0 30px 0;
+   color: #FF6060;
 }
 
 .errorMessage {
@@ -19,7 +22,8 @@
    line-height: 51px;
    letter-spacing: 0em;
    text-align: left;
-   background: #FF6060;
+   margin: 0 0 200px 0;
+   color: #FF6060;
 }
 
 .returnHome {
@@ -29,5 +33,12 @@
    line-height: 26px;
    letter-spacing: 0em;
    text-align: left;
-   background: #FF6060;
+   text-decoration-line: underline;
+   margin-bottom: 200px;
+   color: #FF6060;
+}
+
+.links {
+   text-decoration: none;
+   color: #FF6060;
 }
