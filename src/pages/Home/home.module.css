@@ -58,8 +58,6 @@
 
 /* responsive design */
 
-/* passer tout pour 500 affihe bien                      */
-
 @media screen and (min-width: 500px) and (max-width: 838px) {
    .textBanner {
       font-size: 30px;

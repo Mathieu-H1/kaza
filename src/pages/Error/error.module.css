@@ -42,3 +42,44 @@
    text-decoration: none;
    color: #FF6060;
 }
+
+/* responsive design */
+
+@media screen and (min-width: 500px) and (max-width: 838px) {
+   .number {
+      font-size: 200px;
+      line-height: 270px;
+      margin: 100px 0 15px 0;
+   }
+
+   .errorMessage {
+      height: 52px;
+      font-size: 27px;
+      line-height: 38px;
+      text-align: center;
+      margin-bottom: 150px;
+   }
+
+}
+
+@media screen and (max-width: 500px) {
+   .number {
+      font-size: 96px;
+      line-height: 137px;
+      margin: 100px 0 0 0;
+   }
+
+   .errorMessage {
+      width: 260px;
+      height: 52px;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      margin-bottom: 110px;
+   }
+
+   .returnHome {
+      font-size: 14px;
+      line-height: 20px;
+   }
+}
