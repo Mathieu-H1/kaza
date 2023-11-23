@@ -7,7 +7,7 @@ import Mer from "./mer.png";
 import Card from "../../components/Cards/card_comp";
 import { datas } from '../../Data/data';
 
-//*comp Banner a déjà 1 div / children permet d'ajouter ce que l'on veut changer
+//*comp Banner a déjà 1 section / children permet d'ajouter ce que l'on veut changer
 function Home() {
   console.log(datas);
   return (
