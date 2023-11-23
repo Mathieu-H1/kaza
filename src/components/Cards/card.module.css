@@ -5,6 +5,7 @@
    border-radius: 10px;
    margin: 20px 15px 20px 15px;
    background-color: #FF6060;
+   background: linear-gradient(180deg, #FF6060 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 /* image de la carte */
